@@ -5,6 +5,8 @@
 # Pull base image
 FROM openjdk:jdk-alpine
 
+MAINTAINER "Nicolas Aubry"
+
 # Environment variables
 ENV SCALA_VERSION=2.12.1 \
     SCALA_HOME=/usr/local/share/scala \
